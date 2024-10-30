@@ -15,8 +15,6 @@ BOT = 2
 WINDOW = 3
 EMPTY = 0
 
-# references the minimax wikipedia page for psuedocode: https://en.wikipedia.org/wiki/Minimax#:~:text=Minimax%20(sometimes%20Minmax%2C%20MM%20or,to%20maximize%20the%20minimum%20gain.
-
 def show(board: Board):
     for row in board:
         print(row)
